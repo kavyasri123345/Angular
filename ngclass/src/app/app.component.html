@@ -1,0 +1,5 @@
+
+<div [ngClass]="{'active-class': isActive, 'inactive-class': !isActive}">
+  Content Here
+</div>
+<button (click)="isActive = !isActive">Toggle Class</button>
